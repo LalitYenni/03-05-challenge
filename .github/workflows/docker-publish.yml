@@ -98,6 +98,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: test
-        run: docker run  ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:main
+        run: docker run ghcr.io/lalityenni/03-05-challenge:main
  
 
